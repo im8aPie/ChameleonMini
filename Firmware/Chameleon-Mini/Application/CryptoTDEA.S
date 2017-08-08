@@ -148,8 +148,8 @@ _Decrypt2KTDEA:
 
     ; Reload Z with the key block pointer
     movw    r30, r16
-    ; Encipher
-    clh
+    ; Decipher
+    seh
     rjmp    _LoadKeyAndRunDEA
 
 ;
