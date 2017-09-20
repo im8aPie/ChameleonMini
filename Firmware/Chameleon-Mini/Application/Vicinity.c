@@ -121,6 +121,7 @@ uint16_t VicinityAppProcess(uint8_t* FrameBuf, uint16_t FrameBytes)
 void VicinityGetUid(ConfigurationUidType Uid)
 {
     memcpy(Uid, MyUid, sizeof(ConfigurationUidType));
+    return;
 }
 
 void VicinitySetUid(ConfigurationUidType Uid)
