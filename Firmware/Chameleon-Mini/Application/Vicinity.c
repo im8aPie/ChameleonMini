@@ -27,6 +27,7 @@ ISO15693UidType MyUid = {0x60, 0x0B, 0x88, 0x77, 0x06, 0x44, 0x02, 0xE1};
 void VicinityAppInit(void)
 {
     State = STATE_READY;
+    return;
 }
 
 void VicinityAppReset(void)
